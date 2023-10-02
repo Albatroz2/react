@@ -1,0 +1,22 @@
+.equipo {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;/*Para que el padding tenga el espacio correcto y no presente movimiento y no tenga que hacer scroll porque se sale de la pantalla*/
+    text-align: center;
+    font-size: 32px;
+}
+
+.equipo h3 {
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;/*La linea o el subrayado  va a ocupar el espacio necesario, debajo del titulo*/
+    padding-bottom: 8px;/*Para que no quede tan pegado el subrayado*/
+    
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;/*Si mi lista, que es de 7 colaboradores, ya no alcanza al ancho, me coloca las fotos que caben exactamente y las otras las baja al 2 renglon*/
+}
